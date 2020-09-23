@@ -22,5 +22,6 @@ jobs:
             - "/usr/local/bin"
             - "/usr/local/lib/python3.6/site-packages" 
       - run:
+        name: Running tests
         command: |
-          pipenv run python -m unittest tests/cci_test.py          
+          pipenv run python -m unittest discover
