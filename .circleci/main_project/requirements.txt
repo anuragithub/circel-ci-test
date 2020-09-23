@@ -1,0 +1,2 @@
+numpy==1.18.4             # via -r requirements.in, matplotlib, pandas, scipy, seaborn
+pandas==1.0.3             # via -r requirements.in, seaborn
