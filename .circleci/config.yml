@@ -23,4 +23,5 @@ jobs:
           command: |
             . venv/bin/activate
             pwd
+            ls -lstra
             python -m unittest discover   
