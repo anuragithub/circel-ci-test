@@ -2,7 +2,7 @@
 version: 2
 jobs:
   build:
-    working_directory: ~/main_project
+    working_directory: ~/circle-ci-test
     docker:
       - image: circleci/python:3.7.1-stretch
     steps:
